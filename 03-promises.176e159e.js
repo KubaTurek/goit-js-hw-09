@@ -1,0 +1,2 @@
+document.querySelector('input[name="delay"]');const e=document.querySelector('input[name="step"]'),t=document.querySelector('input[name="amount"]');document.querySelector("button");function n(e,t){return new Promise(((n,o)=>{setTimeout((()=>{Math.random()>.3?n({position:e,delay:t}):o({position:e,delay:t})}),t)}))}document.querySelector(".form").addEventListener("submit",(function(o){o.preventDefault();const u=t.value;e.value,setInterval((()=>{for(let e=1;e>=u;e++)n(e)}))}));
+//# sourceMappingURL=03-promises.176e159e.js.map
